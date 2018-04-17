@@ -1,0 +1,31 @@
+{
+  "name": "reactstrap-snippets",
+  "version": "0.0.1",
+  "description": "Atom Snippets for reactstrap",
+  "main": "./lib/reactstrap-snippets",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gergely-nagy/reactstrap-snippets.git"
+  },
+  "keywords": [
+    "atom",
+    "reactstrap",
+    "snippets",
+    "es6"
+  ],
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gergely-nagy/reactstrap-snippets/issues"
+  },
+  "homepage": "https://github.com/gergely-nagy/reactstrap-snippets",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-lintspaces": "^0.3.0"
+  }
+}
