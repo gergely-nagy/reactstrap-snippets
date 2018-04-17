@@ -1,0 +1,97 @@
+'.source.js, .source.jsx, .source.ts, .source.tsx':
+  'reactstrap: alert-primary':
+    'prefix': 'alert:p'
+    'body': """
+      <Alert
+        color="primary"
+      >
+        ${1}
+      </Alert>
+    """
+
+  'reactstrap: alert-secondary':
+    'prefix': 'alert:se'
+    'body': """
+      <Alert
+        color="secondary"
+      >
+        ${1}
+      </Alert>
+    """
+
+  'reactstrap: alert-success':
+    'prefix': 'alert:su'
+    'body': """
+      <Alert
+        color="success"
+      >
+        ${1}
+      </Alert>
+    """
+
+  'reactstrap: alert-danger':
+    'prefix': 'alert:dg'
+    'body': """
+      <Alert
+        color="danger"
+      >
+        ${1}
+      </Alert>
+    """
+
+  'reactstrap: alert-warning':
+    'prefix': 'alert:w'
+    'body': """
+      <Alert
+        color="warning"
+      >
+        ${1}
+      </Alert>
+    """
+
+  'reactstrap: alert-info':
+    'prefix': 'alert:i'
+    'body': """
+      <Alert
+        color="info"
+      >
+        ${1}
+      </Alert>
+    """
+
+  'reactstrap: alert-light':
+    'prefix': 'alert:l'
+    'body': """
+      <Alert
+        color="light"
+      >
+        ${1}
+      </Alert>
+    """
+
+  'reactstrap: alert-dark':
+    'prefix': 'alert:dk'
+    'body': """
+      <Alert
+        color="dark"
+      >
+        ${1}
+      </Alert>
+    """
+
+  'reactstrap: alert-all':
+    'prefix': 'alert:all'
+    'body': """
+      <Alert
+        className="${1}"
+        closeClassName="${2}"
+        color="${3}"  // default: 'success'
+        isOpen  // default: true
+        toggle={${4}}
+        tag="${5}"
+        transition={{}} // Controls the transition of the alert fading in and out
+
+      >
+        ${6}
+      </Alert>
+    """
