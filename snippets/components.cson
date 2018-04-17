@@ -1,12 +1,13 @@
 ".source.js, .source.jsx, .source.ts, .source.tsx":
-  "reactstrap: Alert":
-    prefix:
-      "alert"
-		body:
-    	"""
-      <Alert
-        color="${1:'success'}" // default: 'success'
-      >
-      Yo!
-      </Alert>
-    	"""
+
+"reactstrap: Alert":
+prefix:
+  "alert"
+body:
+  """
+    <Alert
+      color="${1:'success'}" // default: 'success'
+    >
+    Yo!
+    </Alert>
+  """
