@@ -1,5 +1,5 @@
 
-<h1 align="center">Atom reactstrap snippets</h1>
+<h1 align="center">reactstrap-snippets</h1>
 
 <div align="center">
   <strong>✏️ An <a href="https://atom.io/">Atom</a> snippet library for <a href="https://github.com/reactstrap/reactstrap">reactstrap</a>.</strong>
