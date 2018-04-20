@@ -1,0 +1,35 @@
+'.source.js, .source.jsx, .source.ts, .source.tsx':
+  'reactstrap: breadcrumb':
+    'prefix': 'breadcrumb'
+    'body': """
+      <Breadcrumb>
+        ${1}
+      </Breadcrumb>
+    """
+
+  'reactstrap: breadcrumb full':
+    'prefix': 'breadcrumb:full'
+    'body': """
+      <Breadcrumb>
+        <BreadcrumbItem><a href="${1}">${2}</a></BreadcrumbItem>
+        <BreadcrumbItem active>${3}</BreadcrumbItem>
+      </Breadcrumb>
+    """
+
+  'reactstrap: breadcrumb item':
+    'prefix': 'breadcrumbitem'
+    'body': """
+      <BreadcrumbItem>
+        <a href="${1}">
+          ${2}
+        </a>
+      </BreadcrumbItem>
+    """
+
+  'reactstrap: breadcrumb item active':
+    'prefix': 'breadcrumbitem:a'
+    'body': """
+      <BreadcrumbItem active>
+        ${1}
+      </BreadcrumbItem>
+    """
