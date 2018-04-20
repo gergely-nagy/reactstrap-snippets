@@ -1,85 +1,197 @@
 '.source.js, .source.jsx, .source.ts, .source.tsx':
   'reactstrap: alert-primary':
-    'prefix': 'alert:p'
+    'prefix': 'alert:primary'
     'body': """
-      <Alert
-        color="primary"
-      >
+      <Alert color="primary">
         ${1}
       </Alert>
+    """
+
+  'reactstrap: alert-primary link':
+    'prefix': 'alert:primary:l'
+    'body': """
+      <Alert color="primary">
+        ${1} <a href="${2}" className="alert-link">${3}</a>
+      </Alert>
+    """
+
+  'reactstrap: alert-primary uncontrolled':
+    'prefix': 'alert:primary:u'
+    'body': """
+      <UncontrolledAlert color="primary">
+        ${1}
+      </UncontrolledAlert>
     """
 
   'reactstrap: alert-secondary':
-    'prefix': 'alert:se'
+    'prefix': 'alert:secondary'
     'body': """
-      <Alert
-        color="secondary"
-      >
+      <Alert color="secondary">
         ${1}
       </Alert>
+    """
+
+  'reactstrap: alert-secondary link':
+    'prefix': 'alert:secondary:l'
+    'body': """
+      <Alert color="secondary">
+        ${1} <a href="${2}" className="alert-link">${3}</a>
+      </Alert>
+    """
+
+  'reactstrap: alert-secondary uncontrolled':
+    'prefix': 'alert:secondary:u'
+    'body': """
+      <UncontrolledAlert color="secondary">
+        ${1}
+      </UncontrolledAlert>
     """
 
   'reactstrap: alert-success':
-    'prefix': 'alert:su'
+    'prefix': 'alert:success'
     'body': """
-      <Alert
-        color="success"
-      >
+      <Alert color="success">
         ${1}
       </Alert>
+    """
+
+  'reactstrap: alert-success link':
+    'prefix': 'alert:success:l'
+    'body': """
+      <Alert color="success">
+        ${1} <a href="${2}" className="alert-link">${3}</a>
+      </Alert>
+    """
+
+  'reactstrap: alert-success uncontrolled':
+    'prefix': 'alert:success:u'
+    'body': """
+      <UncontrolledAlert color="success">
+        ${1}
+      </UncontrolledAlert>
     """
 
   'reactstrap: alert-danger':
-    'prefix': 'alert:dg'
+    'prefix': 'alert:danger'
     'body': """
-      <Alert
-        color="danger"
-      >
+      <Alert color="danger">
         ${1}
       </Alert>
+    """
+
+  'reactstrap: alert-danger link':
+    'prefix': 'alert:danger:l'
+    'body': """
+      <Alert color="danger">
+        ${1} <a href="${2}" className="alert-link">${3}</a>
+      </Alert>
+    """
+
+  'reactstrap: alert-danger uncontrolled':
+    'prefix': 'alert:danger:u'
+    'body': """
+      <UncontrolledAlert color="danger">
+        ${1}
+      </UncontrolledAlert>
     """
 
   'reactstrap: alert-warning':
-    'prefix': 'alert:w'
+    'prefix': 'alert:warning'
     'body': """
-      <Alert
-        color="warning"
-      >
+      <Alert color="warning">
         ${1}
       </Alert>
+    """
+
+  'reactstrap: alert-warning link':
+    'prefix': 'alert:warning:l'
+    'body': """
+      <Alert color="warning">
+        ${1} <a href="${2}" className="alert-link">${3}</a>
+      </Alert>
+    """
+
+  'reactstrap: alert-warning uncontrolled':
+    'prefix': 'alert:warning:u'
+    'body': """
+      <UncontrolledAlert color="warning">
+        ${1}
+      </UncontrolledAlert>
     """
 
   'reactstrap: alert-info':
-    'prefix': 'alert:i'
+    'prefix': 'alert:info'
     'body': """
-      <Alert
-        color="info"
-      >
+      <Alert color="info">
         ${1}
       </Alert>
+    """
+
+  'reactstrap: alert-info link':
+    'prefix': 'alert:info:l'
+    'body': """
+      <Alert color="info">
+        ${1} <a href="${2}" className="alert-link">${3}</a>
+      </Alert>
+    """
+
+  'reactstrap: alert-info uncontrolled':
+    'prefix': 'alert:info:u'
+    'body': """
+      <UncontrolledAlert color="info">
+        ${1}
+      </UncontrolledAlert>
     """
 
   'reactstrap: alert-light':
-    'prefix': 'alert:l'
+    'prefix': 'alert:light'
     'body': """
-      <Alert
-        color="light"
-      >
+      <Alert color="light">
         ${1}
       </Alert>
+    """
+
+  'reactstrap: alert-light link':
+    'prefix': 'alert:light:l'
+    'body': """
+      <Alert color="light">
+        ${1} <a href="${2}" className="alert-link">${3}</a>
+      </Alert>
+    """
+
+  'reactstrap: alert-light uncontrolled':
+    'prefix': 'alert:light:u'
+    'body': """
+      <UncontrolledAlert color="light">
+        ${1}
+      </UncontrolledAlert>
     """
 
   'reactstrap: alert-dark':
-    'prefix': 'alert:dk'
+    'prefix': 'alert:dark'
     'body': """
-      <Alert
-        color="dark"
-      >
+      <Alert color="dark">
         ${1}
       </Alert>
     """
 
-  'reactstrap: alert-all':
+  'reactstrap: alert-dark link':
+    'prefix': 'alert:dark:l'
+    'body': """
+      <Alert color="dark">
+        ${1} <a href="${2}" className="alert-link">${3}</a>
+      </Alert>
+    """
+
+  'reactstrap: alert-dark uncontrolled':
+    'prefix': 'alert:dark:u'
+    'body': """
+      <UncontrolledAlert color="dark">
+        ${1}
+      </UncontrolledAlert>
+    """
+
+  'reactstrap: alert:all':
     'prefix': 'alert:all'
     'body': """
       <Alert
