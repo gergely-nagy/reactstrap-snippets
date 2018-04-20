@@ -1,0 +1,192 @@
+'.source.js, .source.jsx, .source.ts, .source.tsx':
+  'reactstrap: badge-primary':
+    'prefix': 'badge:primary'
+    'body': """
+      <Badge color="primary">
+        ${1}
+      </Badge>
+    """
+
+  'reactstrap: badge-primary pill':
+    'prefix': 'badge:primary:p'
+    'body': """
+      <Badge color="primary" pill>
+        ${1}
+      </Badge>
+    """
+
+  'reactstrap: badge-primary link':
+    'prefix': 'badge:primary:l'
+    'body': """
+      <Badge href="${1}" color="primary">
+        ${2}
+      </Badge>
+    """
+
+  'reactstrap: badge-secondary':
+    'prefix': 'badge:secondary'
+    'body': """
+      <Badge color="secondary">
+        ${1}
+      </Badge>
+    """
+
+  'reactstrap: badge-secondary pill':
+    'prefix': 'badge:secondary:p'
+    'body': """
+      <Badge color="secondary" pill>
+        ${1}
+      </Badge>
+    """
+
+  'reactstrap: badge-secondary link':
+    'prefix': 'badge:secondary:l'
+    'body': """
+      <Badge href="${1}" color="secondary">
+        ${2}
+      </Badge>
+    """
+
+  'reactstrap: badge-success':
+    'prefix': 'badge:success'
+    'body': """
+      <Badge color="success">
+        ${1}
+      </Badge>
+    """
+
+  'reactstrap: badge-success pill':
+    'prefix': 'badge:success:p'
+    'body': """
+      <Badge color="success" pill>
+        ${1}
+      </Badge>
+    """
+
+  'reactstrap: badge-success link':
+    'prefix': 'badge:success:l'
+    'body': """
+      <Badge href="${1}" color="success">
+        ${2}
+      </Badge>
+    """
+
+  'reactstrap: badge-danger':
+    'prefix': 'badge:danger'
+    'body': """
+      <Badge color="danger">
+        ${1}
+      </Badge>
+    """
+
+  'reactstrap: badge-danger pill':
+    'prefix': 'badge:danger:p'
+    'body': """
+      <Badge color="danger" pill>
+        ${1}
+      </Badge>
+    """
+
+  'reactstrap: badge-danger link':
+    'prefix': 'badge:danger:l'
+    'body': """
+      <Badge href="${1}" color="danger">
+        ${2}
+      </Badge>
+    """
+
+  'reactstrap: badge-warning':
+    'prefix': 'badge:warning'
+    'body': """
+      <Badge color="warning">
+        ${1}
+      </Badge>
+    """
+
+  'reactstrap: badge-warning pill':
+    'prefix': 'badge:warning:p'
+    'body': """
+      <Badge color="warning" pill>
+        ${1}
+      </Badge>
+    """
+
+  'reactstrap: badge-warning link':
+    'prefix': 'badge:warning:l'
+    'body': """
+      <Badge href="${1}" color="warning">
+        ${2}
+      </Badge>
+    """
+
+  'reactstrap: badge-info':
+    'prefix': 'badge:info'
+    'body': """
+      <Badge color="info">
+        ${1}
+      </Badge>
+    """
+
+  'reactstrap: badge-info pill':
+    'prefix': 'badge:info:p'
+    'body': """
+      <Badge color="info" pill>
+        ${1}
+      </Badge>
+    """
+
+  'reactstrap: badge-info link':
+    'prefix': 'badge:info:l'
+    'body': """
+      <Badge href="${1}" color="info">
+        ${2}
+      </Badge>
+    """
+
+  'reactstrap: badge-light':
+    'prefix': 'badge:light'
+    'body': """
+      <Badge color="light">
+        ${1}
+      </Badge>
+    """
+
+  'reactstrap: badge-light pill':
+    'prefix': 'badge:light:p'
+    'body': """
+      <Badge color="light" pill>
+        ${1}
+      </Badge>
+    """
+
+  'reactstrap: badge-light link':
+    'prefix': 'badge:light:l'
+    'body': """
+      <Badge href="${1}" color="light">
+        ${2}
+      </Badge>
+    """
+
+  'reactstrap: badge-dark':
+    'prefix': 'badge:dark'
+    'body': """
+      <Badge color="dark">
+        ${1}
+      </Badge>
+    """
+
+  'reactstrap: badge-dark pill':
+    'prefix': 'badge:dark:p'
+    'body': """
+      <Badge color="dark" pill>
+        ${1}
+      </Badge>
+    """
+
+  'reactstrap: badge-dark link':
+    'prefix': 'badge:dark:l'
+    'body': """
+      <Badge href="${1}" color="dark">
+        ${2}
+      </Badge>
+    """
