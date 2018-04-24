@@ -1,0 +1,58 @@
+'.source.js, .source.jsx, .source.ts, .source.tsx':
+  'reactstrap: button basic':
+    'prefix': 'rs-button:basic'
+    'leftLabelHTML': '<span style="color:#dc3545">reactstrap</span>'
+    'rightLabelHTML': '<span>basic &lt;Button/&gt; component</span>'
+    'description': """
+      propTypes = {
+        color: PropTypes.string,    // default: 'secondary'
+        tag: PropTypes.oneOfType([  // default: 'button'
+          PropTypes.func,
+          PropTypes.string
+        ]),
+        children: PropTypes.node,
+      }
+    """
+    'descriptionMoreURL': 'https://reactstrap.github.io/components/buttons/'
+    'body': """
+      <Button
+        color="{$1:primary}"
+      >
+        {$2}
+      </Button>
+    """
+
+  'reactstrap: button full':
+    'prefix': 'rs-button:full'
+    'leftLabelHTML': '<span style="color:#dc3545">reactstrap</span>'
+    'rightLabelHTML': '<span>full &lt;Button/&gt; component</span>'
+    'description': """
+      propTypes = {
+        active: PropTypes.bool,
+        block: PropTypes.bool,
+        color: PropTypes.string,    // default: 'secondary'
+        disabled: PropTypes.bool,
+        tag: PropTypes.oneOfType([  // default: 'button'
+          PropTypes.func,
+          PropTypes.string
+        ]),
+        innerRef: PropTypes.oneOfType([
+          PropTypes.func,
+          PropTypes.string
+        ]),
+        onClick: PropTypes.func,
+        size: PropTypes.string
+      }
+    """
+    'descriptionMoreURL': 'https://reactstrap.github.io/components/buttons/'
+    'body': """
+      <Button
+        active
+        block
+        disabled
+        color="{$1:primary}"
+        onClick={{$2:this.onButtonClick}}
+      >
+        {$3}
+      </Button>
+    """
