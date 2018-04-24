@@ -1,11 +1,11 @@
 '.source.js, .source.jsx, .source.ts, .source.tsx':
   'reactstrap: progress':
     'prefix': 'rs-progress:basic'
-    'leftLabelHTML': '<span style="color:#563d7c">reactstrap</span>'
-    'rightLabelHTML': '<span>basic <Progress/> component</span>'
+    'leftLabelHTML': '<span style="color:#dc3545">reactstrap</span>'
+    'rightLabelHTML': '<span>basic &lt;Progress/&gt; component</span>'
     'description': """
       propTypes = {
-        <span style="color:#563d7c">children:</span> PropTypes.node,
+        children: PropTypes.node,
         bar: PropTypes.bool,
         multi: PropTypes.bool,
         tag: PropTypes.string,
