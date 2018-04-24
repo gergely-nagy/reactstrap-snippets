@@ -1,6 +1,6 @@
 {
   "name": "reactstrap-snippets",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Atom Snippets for reactstrap",
   "main": "./lib/reactstrap-snippets",
   "scripts": {
