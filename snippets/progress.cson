@@ -1,28 +1,16 @@
 '.source.js, .source.jsx, .source.ts, .source.tsx':
-  'reactstrap: progress':
+  'reactstrap: progress basic':
     'prefix': 'rs-progress:basic'
     'leftLabelHTML': '<span style="color:#dc3545">reactstrap</span>'
     'rightLabelHTML': '<span>basic &lt;Progress/&gt; component</span>'
     'description': """
       propTypes = {
         children: PropTypes.node,
-        bar: PropTypes.bool,
-        multi: PropTypes.bool,
-        tag: PropTypes.string,
         value: PropTypes.oneOfType([
           PropTypes.string,
           PropTypes.number,
         ]),
-        max: PropTypes.oneOfType([
-          PropTypes.string,
-          PropTypes.number,
-        ]),
-        animated: PropTypes.bool,
-        striped: PropTypes.bool,
         color: PropTypes.string,
-        className: PropTypes.string,
-        barClassName: PropTypes.string,
-        cssModule: PropTypes.object,
       }
     """
     'descriptionMoreURL': 'https://reactstrap.github.io/components/progress/'
@@ -30,6 +18,42 @@
       <Progress
         value={${1}}
         color="${2}"
+      >
+        ${3}
+      </Progress>
+    """
+
+  'reactstrap: progress full':
+    'prefix': 'rs-progress:full'
+    'leftLabelHTML': '<span style="color:#dc3545">reactstrap</span>'
+    'rightLabelHTML': '<span>full &lt;Progress/&gt; component</span>'
+    'description': """
+      propTypes = {
+        multi: PropTypes.bool,
+        bar: PropTypes.bool, // used in combination with multi
+        tag: PropTypes.string,
+        value: PropTypes.oneOfType([
+          PropTypes.string,
+          PropTypes.number,
+        ]),
+        max: PropTypes.oneOf([
+          PropTypes.string,
+          PropTypes.number,
+        ]),
+        animated: PropTypes.bool,
+        striped: PropTypes.bool,
+        color: PropTypes.string,
+        className: PropTypes.string,
+        barClassName: PropTypes.string // used to add class to the inner progress-bar element
+      };
+    """
+    'descriptionMoreURL': 'https://reactstrap.github.io/components/progress/'
+    'body': """
+      <Progress
+        value={${1}}
+        color="${2}"
+        animated
+        striped
       >
         ${3}
       </Progress>
