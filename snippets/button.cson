@@ -16,9 +16,9 @@
     'descriptionMoreURL': 'https://reactstrap.github.io/components/buttons/'
     'body': """
       <Button
-        color="{$1:primary}"
+        color="${1:primary}"
       >
-        {$2}
+        ${2}
       </Button>
     """
 
@@ -50,9 +50,9 @@
         active
         block
         disabled
-        color="{$1:primary}"
-        onClick={{$2:this.onButtonClick}}
+        color="${1:primary}"
+        onClick={${2:this.onButtonClick}}
       >
-        {$3}
+        ${3}
       </Button>
     """
