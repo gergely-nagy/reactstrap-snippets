@@ -1,11 +1,11 @@
 '.source.js, .source.jsx, .source.ts, .source.tsx':
   'reactstrap: progress':
-    'prefix': 'progress'
-    'leftLabelHTML': '<span style="color:#ff0">LS</span>'
-    'rightLabelHTML': '<span style="color:#ff0">RS</span>'
+    'prefix': 'rs-progress:basic'
+    'leftLabelHTML': '<span style="color:#563d7c">reactstrap</span>'
+    'rightLabelHTML': '<span>basic <Progress/> component</span>'
     'description': """
-      const propTypes = {
-        children: PropTypes.node,
+      propTypes = {
+        <span style="color:#563d7c">children:</span> PropTypes.node,
         bar: PropTypes.bool,
         multi: PropTypes.bool,
         tag: PropTypes.string,
@@ -23,7 +23,7 @@
         className: PropTypes.string,
         barClassName: PropTypes.string,
         cssModule: PropTypes.object,
-      };
+      }
     """
     'descriptionMoreURL': 'https://reactstrap.github.io/components/progress/'
     'body': """
