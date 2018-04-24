@@ -1,0 +1,52 @@
+'.source.js, .source.jsx, .source.ts, .source.tsx':
+  'reactstrap: collapse basic':
+    'prefix': 'rs-collapse:basic'
+    'leftLabelHTML': '<span style="color:#dc3545">reactstrap</span>'
+    'rightLabelHTML': '<span>basic &lt;Collapse/&gt; component</span>'
+    'description': """
+      propTypes = {
+        ...Transition.propTypes,
+        isOpen: PropTypes.bool,
+        children: PropTypes.oneOfType([
+          PropTypes.arrayOf(PropTypes.node),
+          PropTypes.node
+        ]),
+      }
+    """
+    'descriptionMoreURL': 'https://reactstrap.github.io/components/collapse/'
+    'body': """
+      <Collapse isOpen={{$1:this.state.collapse}}>
+        {$2}
+      </Collapse>
+    """
+
+  'reactstrap: collapse full':
+    'prefix': 'rs-collapse:full'
+    'leftLabelHTML': '<span style="color:#dc3545">reactstrap</span>'
+    'rightLabelHTML': '<span>full &lt;Collapse/&gt; component</span>'
+    'description': """
+      propTypes = {
+        ...Transition.propTypes,
+        isOpen: PropTypes.bool,
+        children: PropTypes.oneOfType([
+          PropTypes.arrayOf(PropTypes.node),
+          PropTypes.node
+        ]),
+        tag: PropTypes.oneOfType([PropTypes.func, PropTypes.string]),
+        className: PropTypes.node,
+        navbar: PropTypes.bool,
+        cssModule: PropTypes.object,
+      };
+    """
+    'descriptionMoreURL': 'https://reactstrap.github.io/components/collapse/'
+    'body': """
+      <Collapse
+        isOpen={{$1:this.state.collapse}}
+        onEntering={{$2:this.onEntering}}
+        onEntered={{$3:this.onEntered}}
+        onExiting={{$4:this.onExiting}}
+        onExited={{$5:this.onExited}}
+      >
+        {$6}
+      </Collapse>
+    """
