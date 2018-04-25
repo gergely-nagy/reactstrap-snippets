@@ -1,0 +1,62 @@
+'.source.js, .source.jsx, .source.ts, .source.tsx':
+  'reactstrap: fade basic':
+    'prefix': 'rs-fade:basic'
+    'leftLabelHTML': '<span style="color:#dc3545">reactstrap</span>'
+    'rightLabelHTML': '<span>basic &lt;Fade/&gt; component</span>'
+    'description': """
+      propTypes = {
+        in: PropTypes.bool //(default: true)
+      }
+    """
+    'descriptionMoreURL': 'https://reactstrap.github.io/components/fade/'
+    'body': """
+      <Fade in={${1:this.state.fadeIn}}>
+        ${2}
+      </Fade>
+    """
+
+  'reactstrap: fade full':
+    'prefix': 'rs-fade:full'
+    'leftLabelHTML': '<span style="color:#dc3545">reactstrap</span>'
+    'rightLabelHTML': '<span>full &lt;Fade/&gt; component</span>'
+    'description': """
+      propTypes = {
+          in: PropTypes.bool, // (default: true)
+          mountOnEnter: PropTypes.bool,
+          unmountOnExit: PropTypes.bool,
+          appear: PropTypes.bool, // (default: true)
+          enter: PropTypes.bool,  // (default: true)
+          exit: PropTypes.bool,   // (default: true)
+          timeout: PropTypes.oneOfType([ // (default: 150)
+              PropTypes.number,
+              PropTypes.shape({
+                  enter: PropTypes.number,
+                  exit: PropTypes.number,
+              }).isRequired,
+          ]),
+          addEndListener: PropTypes.func,
+          onEnter: PropTypes.func,
+          onEntering: PropTypes.func,
+          onEntered: PropTypes.func,
+          onExit: PropTypes.func,
+          onExiting: PropTypes.func,
+          onExited: PropTypes.func,
+          tag: PropTypes.oneOfType([ // (default: 'div')
+            PropTypes.string, PropTypes.func
+          ]),
+      }
+    """
+    'descriptionMoreURL': 'https://reactstrap.github.io/components/fade/'
+    'body': """
+      <Fade
+        in={${1:this.state.fadeIn}}
+        onEnter={${2:this.onEnter}}
+        onEntering={${2:this.onEntering}}
+        onEntered={${3:this.onEntered}}
+        onExit={${3:this.onExit}}
+        onExiting={${4:this.onExiting}}
+        onExited={${5:this.onExited}}
+      >
+        ${6}
+      </Fade>
+    """
