@@ -1,0 +1,9 @@
+'.source.js, .source.jsx, .source.ts, .source.tsx':
+  'reactstrap: import basic':
+    'prefix': 'rs-import:basic'
+    'leftLabelHTML': '<span style="color:#dc3545">reactstrap</span>'
+    'rightLabelHTML': '<span>basic reactstrap import</span>'
+    'descriptionMoreURL': 'https://github.com/reactstrap/reactstrap/blob/master/src/index.js'
+    'body': """
+      import { ${1} } from 'reactstrap';
+    """
