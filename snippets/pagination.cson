@@ -1,0 +1,108 @@
+'.source.js, .source.jsx, .source.ts, .source.tsx':
+  'reactstrap: pagination basic':
+    'prefix': 'rs-pagination:basic'
+    'leftLabelHTML': '<span style="color:#dc3545">reactstrap</span>'
+    'rightLabelHTML': '<span>basic &lt;Pagination/&gt; component</span>'
+    'description': """
+      propTypes = {
+        children: PropTypes.node,
+        className: PropTypes.string,
+        size: PropTypes.string,
+        tag: PropTypes.oneOfType([
+          PropTypes.func, PropTypes.string
+        ]),
+      }
+    """
+    'descriptionMoreURL': 'https://reactstrap.github.io/components/pagination/'
+    'body': """
+      <Pagination>
+        ${1}
+      </Pagination>
+    """
+
+  'reactstrap: pagination full':
+    'prefix': 'rs-pagination:full'
+    'leftLabelHTML': '<span style="color:#dc3545">reactstrap</span>'
+    'rightLabelHTML': '<span>full &lt;Pagination/&gt; component</span>'
+    'description': """
+      propTypes = {
+        children: PropTypes.node,
+        className: PropTypes.string,
+        size: PropTypes.string,
+        tag: PropTypes.oneOfType([
+          PropTypes.func, PropTypes.string
+        ]),
+      }
+    """
+    'descriptionMoreURL': 'https://reactstrap.github.io/components/pagination/'
+    'body': """
+      <Pagination>
+        <PaginationItem>
+          <PaginationLink previous href="${1:#}" />
+        </PaginationItem>
+        <PaginationItem>
+          <PaginationLink href="${2:#}">
+            ${3}
+          </PaginationLink>
+        </PaginationItem>
+        <PaginationItem>
+          <PaginationLink href="${4:#}">
+            ${5}
+          </PaginationLink>
+        </PaginationItem>
+        <PaginationItem>
+          <PaginationLink href="${6:#}">
+            ${7}
+          </PaginationLink>
+        </PaginationItem>
+        <PaginationItem>
+          <PaginationLink href="${8:#}">
+            ${9}
+          </PaginationLink>
+        </PaginationItem>
+        <PaginationItem>
+          <PaginationLink href="${10:#}#">
+            ${11}
+          </PaginationLink>
+        </PaginationItem>
+        <PaginationItem>
+          <PaginationLink next href="${12:#}" />
+        </PaginationItem>
+      </Pagination>
+    """
+
+  'reactstrap: paginationitem basic':
+    'prefix': 'rs-paginationitem:basic'
+    'leftLabelHTML': '<span style="color:#dc3545">reactstrap</span>'
+    'rightLabelHTML': '<span>basic &lt;PaginationItem/&gt; component</span>'
+    'description': """
+      propTypes = {
+        children: PropTypes.node,
+        active: PropTypes.bool, //(default: false)
+        disabled: PropTypes.bool //(default: false)
+      }
+    """
+    'descriptionMoreURL': 'https://reactstrap.github.io/components/pagination/'
+    'body': """
+      <PaginationItem>
+        ${1}
+      </PaginationItem>
+    """
+
+  'reactstrap: paginationlink basic':
+    'prefix': 'rs-paginationlink:basic'
+    'leftLabelHTML': '<span style="color:#dc3545">reactstrap</span>'
+    'rightLabelHTML': '<span>basic &lt;PaginationLink/&gt; component</span>'
+    'description': """
+      propTypes = {
+        children: PropTypes.node,
+        next: PropTypes.bool, //(default: false)
+        previous: PropTypes.bool //(default: false)
+      }
+    """
+    'descriptionMoreURL': 'https://reactstrap.github.io/components/pagination/'
+    'body': """
+      <PaginationLink>
+        ${1}
+      </PaginationLink>
+    """
