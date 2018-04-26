@@ -12,7 +12,7 @@ This package uses the following naming convention:
  - 2: component name in lower case. for example: alert
  - 3: options. for example: basic or full
 
-For example, for inserting a basic `<Alert>` component type `rs-alert:basic` and hit enter.
+For example, for inserting a basic `<Alert>` component, type `rs-alert:basic` and hit enter.
 
 The **⇥** means the `TAB` key
 
