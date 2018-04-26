@@ -21,7 +21,7 @@
     <img src="https://img.shields.io/travis/gergely-nagy/reactstrap-snippets.svg" alt="Travis" />
   </a>
   <!-- License-->
-  <a href="https://www.npmjs.com/package/react-pricing-table">
+  <a href="https://github.com/gergely-nagy/reactstrap-snippets/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/gergely-nagy/reactstrap-snippets.svg" />
   </a>
 </div>
