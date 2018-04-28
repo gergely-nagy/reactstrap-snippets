@@ -19,5 +19,5 @@ The **⇥** means the `TAB` key
 
 | Trigger      | Content |
 | -------:     | ------- |
-| `rs-progress:basic→`       | basic <Progress/> component |
-| `rs-progress:full→`      | full <Progress/> component |
+| `rs-progress:basic→`       | basic &lt;Progress/&gt; component |
+| `rs-progress:full→`      | full &lt;Progress/&gt; component |
