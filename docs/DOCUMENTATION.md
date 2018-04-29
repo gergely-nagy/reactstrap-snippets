@@ -21,3 +21,7 @@ The **⇥** means the `TAB` key
 | -------:     | ------- |
 | `rs-progress:basic→`       | basic &lt;Progress/&gt; component |
 | `rs-progress:full→`      | full &lt;Progress/&gt; component |
+| `rs-pagination:basic→` | basic &lt;Pagination/&gt; component |
+| `rs-pagination:full→` | full &lt;Pagination/&gt; component |
+| `rs-paginationitem:basic→` | basic &lt;PaginationItem/&gt; component |
+| `rs-paginationlink:basic→` | basic &lt;PaginationLink/&gt; component |
