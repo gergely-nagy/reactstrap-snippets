@@ -27,3 +27,4 @@ The **⇥** means the `TAB` key
 | `rs-paginationlink:basic→` | basic &lt;PaginationLink/&gt; component |
 | `rs-fade:basic→` | basic &lt;Fade/&gt; component |
 | `rs-fade:full→` | full &lt;Fade/&gt; component |
+| `rs-import:basic→` | basic reactstrap import |
