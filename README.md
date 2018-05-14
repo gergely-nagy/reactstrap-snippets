@@ -43,7 +43,7 @@ Go to `Packages > Settings View > Open` once in settings go to the Install tab a
 Restart Atom
 
 ## Documentation
-You can find the documentation [on github](https://github.com/gergely-nagy/reactstrap-snippets/blob/master/docs/DOCUMENTATION.md).
+You can find the documentation [on github](https://github.com/gergely-nagy/reactstrap-snippets/blob/master/docs/README.md).
 ## Contributing
 Read our [contributing guide](https://github.com/gergely-nagy/reactstrap-snippets/blob/master/CONTRIBUTING.md) to learn about our development process, how to propose bugfixes and improvements.
 ## Changelog
