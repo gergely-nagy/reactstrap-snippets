@@ -45,7 +45,7 @@ Restart Atom
 ## Documentation
 You can find the documentation [on github](https://github.com/gergely-nagy/reactstrap-snippets/blob/master/docs/README.md).
 ## Contributing
-Read our [contributing guide](https://github.com/gergely-nagy/reactstrap-snippets/blob/master/CONTRIBUTING.md) to learn about our development process, how to propose bugfixes and improvements.
+Read our [contributing guide](#) to learn about our development process, how to propose bugfixes and improvements.
 ## Changelog
 The change log can be found [here](https://github.com/gergely-nagy/reactstrap-snippets/blob/master/CHANGELOG.md).
 ## License
